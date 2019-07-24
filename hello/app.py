@@ -110,7 +110,6 @@ def index():
         return resp
 
     user_json = graphcall()
-    print("User_json", user_json)
     user = User(**user_json)
     # capture the request start time
     start = default_timer()
