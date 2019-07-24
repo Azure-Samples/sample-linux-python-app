@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>{% block title %}{% endblock %} Sample Azure Application</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://static2.sharepointonline.com/files/fabric/office-ui-fabric-core/10.0.0/css/fabric.min.css" />
+    {% block styles %}
+    {% endblock %}
+</head>
+
+<body class="ms-Fabric"> 
+    <div id="content" class="ms-Grid" dir="ltr">
+        {% block body %} {% endblock %}
+    </div> 
+
+    <div id="footer" class="title-Bar">
+        <p>
+            <strong>Hello Web App</strong> by <a href="https://github.com/microsoft">Microsoft</a>
+        </p>
+    </div>
+</body>

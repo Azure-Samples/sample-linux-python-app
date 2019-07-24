@@ -1,0 +1,49 @@
+{% extends "base.html" %}
+{% block title %} Sample App - {% endblock %}
+
+{% block styles %}
+    <style>
+        .login-Bar {
+            float: right;
+        }
+
+        .title-Bar {
+         width:80%;
+         margin: 0 auto;
+         text-align: center;
+        }
+
+        .list-Item {
+            margin: 1em;
+            padding: 1em;
+        }
+
+        a > span {
+            text-decoration: none;
+        }
+
+        body {
+            margin: 0 auto;
+            width: 80%;
+        }
+    </style>
+{% endblock %}
+
+{% block body %}
+<div class="ms-Grid-row login-Bar">
+        <p class="ms-fontSize-18">
+            <a class="ms-fontSize-16 ms-Button ms-Button--Primary" href="{{ url_for('index') }}">Login</a>
+        </p>
+</div>
+
+<div class="ms-Grid-row title-Bar">
+        <p class="ms-fontSize-42">Azure Security Resources</p>
+        <blockquote class="ms-fontSize-20">
+                Microsoft provides a multitude of resources to help you get started with securing your application on Azure.
+                Listed below is a handful of resources developed to help with developing secure applications.
+        </blockquote>
+
+        <a href="{{ url_for('index') }}" class="ms-fontSize-42">Login With Microsoft</a>
+</div>
+
+{% endblock %}

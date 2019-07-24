@@ -1,57 +1,40 @@
-# Project Name
+# Sample Linux Python App
 
-(short, 1-3 sentenced, description of the project)
+This repository contains source code for a Python Application built on Azure WebApp for Linux containers that contains the following.
 
-## Features
-
-This project framework provides the following features:
-
-* Feature 1
-* Feature 2
-* ...
+* A Docker file - `Dockerfile`
+* Python web app source code (Flask) - `src`
+* Deployment scripts - `scripts`
+* An init file for the Docker container - `init.sh`
+* A migrations folder for Flask database migrations - `migrations`
 
 ## Getting Started
 
 ### Prerequisites
 
-(ideally very short, if any)
+1. Install a code editor to modify and view the application code. For the sample app, [Visual Studio Code](https://code.visualstudio.com/) was used.
+2. Install the [Azure CLI](https://docs.microsoft.com/cli/azure/install-azure-cli?view=azure-cli-latest&viewFallbackFrom=azure-cli-latest,) on your development machine.
+3. Install [Git](https://git-scm.com/) on your system. Git is used to clone the source code locally.
+4. Install [jq](https://stedolan.github.io/jq/) if you are on a Linux based system, jq being a tool for querying JSON in a user friendly way.
 
-- OS
-- Library version
-- ...
+### Deploying
 
-### Installation
+Change directory into the scripts folder `cd scripts`
 
-(ideally very short)
+1. If you are on powershell run the `deploy-powershell.ps1` file by typing `./deploy-powershell.ps1 <REGION> <RESOURCE_GROUP_NAME>` replacing the region and resource group name with suitable Azure regions and a name for the resource group
+2. If you are on linux run the `deploy-bash.sh` file by typing `/deploy-bash.sh <REGION> <RESOURCE_GROUP_NAME>`, you may have to make the file executable by typing `chmod +x deploy-bash.sh`
+3. After the resources have been deployed, read the documentation contained here to configure the resources in order to make the app run, without the configuration described in the documentation the application will not run
 
-- npm install [package name]
-- mvn install
-- ...
+---
+**NOTE**
 
-### Quickstart
-(Add steps to get up and running quickly)
+After deployment this application needs to be configured as outlined in the documentation here [App Documentation](APP_DOCS_LINK),
+otherwise the components will not work correctly without specifying the necessary steps
 
-1. git clone [repository clone url]
-2. cd [respository name]
-3. ...
-
-
-## Demo
-
-A demo app is included to show how to use the project.
-
-To run the demo, follow these steps:
-
-(Add steps to start up the demo)
-
-1.
-2.
-3.
+---
 
 ## Resources
 
-(Any additional resources or related projects)
-
-- Link to supporting information
-- Link to similar sample
-- ...
+1. [Security Development Lifecycle](https://www.microsoft.com/en-us/securityengineering/sdl)
+2. [Security Patterns](https://docs.microsoft.com/en-us/azure/security/security-best-practices-and-patterns)
+3. [Python On Azure](https://azure.microsoft.com/en-us/develop/python/)

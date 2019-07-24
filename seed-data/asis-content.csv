@@ -1,0 +1,47 @@
+Azure boundary security best practices,https://docs.microsoft.com/en-us/azure/best-practices-network-security,Azure Best Practices
+Azure database security best practices,https://docs.microsoft.com/en-us/azure/security/azure-database-security-best-practices,Azure Best Practices
+Azure data security and encryption best practices,https://docs.microsoft.com/en-us/azure/security/azure-security-data-encryption-best-practices,Azure Best Practices
+Azure identity management and access control security best practices,https://docs.microsoft.com/en-us/azure/security/azure-security-identity-management-best-practices,Azure Best Practices
+Azure network security best practices,https://docs.microsoft.com/en-us/azure/security/azure-security-network-security-best-practices,Azure Best Practices
+Azure operational security best practices,https://docs.microsoft.com/en-us/azure/security/azure-operational-security-best-practices,Azure Best Practices
+Azure PaaS Best Practices,https://docs.microsoft.com/en-us/azure/security/security-paas-deployments,Azure Best Practices
+Azure Service Fabric security best practices,https://docs.microsoft.com/en-us/azure/security/azure-service-fabric-security-best-practices,Azure Best Practices
+Best practices for Azure VM security,https://docs.microsoft.com/en-us/azure/security/azure-security-best-practices-vms,Azure Best Practices
+Implementing a secure hybrid network architecture in Azure,https://docs.microsoft.com/en-us/azure/guidance/guidance-iaas-ra-secure-vnet-hybrid,Azure Best Practices
+Internet of Things security best practices,https://docs.microsoft.com/en-us/azure/security/azure-security-iot-best-practices,Azure Best Practices
+Securing PaaS databases in Azure,https://docs.microsoft.com/en-us/azure/security/security-paas-applications-using-sql,Azure Best Practices
+Securing PaaS web and mobile applications using Azure App Service,https://docs.microsoft.com/en-us/azure/security/security-paas-applications-using-app-services,Azure Best Practices
+Securing PaaS web and mobile applications using Azure Storage,https://docs.microsoft.com/en-us/azure/security/security-paas-applications-using-storage,Azure Best Practices
+Security best practices for IaaS workloads in Azure,https://docs.microsoft.com/en-us/azure/security/azure-security-iaas,Azure Best Practices
+Azure database security overview,https://docs.microsoft.com/en-us/azure/security/azure-database-security-overview,Azure Technical Overviews
+Azure encryption overview,https://docs.microsoft.com/en-us/azure/security/security-azure-encryption-overview,Azure Technical Overviews
+Azure identity management security overview,https://docs.microsoft.com/en-us/azure/security/security-identity-management-overview,Azure Technical Overviews
+Azure network security overview,https://docs.microsoft.com/en-us/azure/security/security-network-overview,Azure Technical Overviews
+Azure operational security overview,https://docs.microsoft.com/en-us/azure/security/azure-operational-security-overview,Azure Technical Overviews
+Azure security management and monitoring overview,https://docs.microsoft.com/en-us/azure/security/security-management-and-monitoring-overview,Azure Technical Overviews
+Azure Service Fabric security overview,https://docs.microsoft.com/en-us/azure/security/azure-service-fabric-security-overview,Azure Technical Overviews
+Azure Storage security overview,https://docs.microsoft.com/en-us/azure/security/security-storage-overview,Azure Technical Overviews
+Azure virtual machines security overview,https://docs.microsoft.com/en-us/azure/security/security-virtual-machines-overview,Azure Technical Overviews
+Internet of Things security architecture,https://docs.microsoft.com/azure/iot-suite/iot-security-architecture#security-in-iot,Azure Technical Overviews
+Introduction to Azure security,https://docs.microsoft.com/en-us/azure/security/azure-security,Azure Technical Overviews
+Introduction to Azure log integration,https://docs.microsoft.com/en-us/azure/security/security-azure-log-integration-overview,Azure Technical Overviews
+Secure your Internet of Things in Azure,https://docs.microsoft.com/en-us/azure/security/security-internet-of-things-overview,Azure Technical Overviews
+Securing PaaS deployments,https://docs.microsoft.com/en-us/azure/security/security-paas-deployments,Azure Technical Overviews
+What is Azure Security Center?,https://docs.microsoft.com/azure/security-center/security-center-intro?toc=%2fazure%2fsecurity%2ftoc.json,Azure Technical Overviews
+Introduction to Azure Security,https://docs.microsoft.com/en-us/azure/security/azure-security,Azure Whitepapers
+Security best practices for Azure solutions,https://azure.microsoft.com/resources/security-best-practices-for-azure-solutions,Azure Whitepapers
+Developing secure applications on Azure,https://docs.microsoft.com/en-us/azure/security/abstract-develop-secure-apps,Azure Whitepapers
+Advanced threat detection,https://docs.microsoft.com/en-us/azure/security/azure-threat-detection,Azure Whitepapers
+Azure data encryption-at-rest,https://docs.microsoft.com/en-us/azure/security/azure-security-encryption-atrest,Azure Whitepapers
+Azure logging and auditing,https://docs.microsoft.com/en-us/azure/security/azure-log-audit,Azure Whitepapers
+Azure network security,https://docs.microsoft.com/en-us/azure/security/abstract-azure-network-security,Azure Whitepapers
+Azure Functions and serverless platform security,https://gallery.technet.microsoft.com/Azure-Functions-and-c6449f8d/file/202175/1/Microsoft%20Serverless%20Platform.pdf,Azure Whitepapers
+Container security in Microsoft Azure,https://docs.microsoft.com/en-us/azure/security/abstract-container-security-microsoft-azure,Azure Whitepapers
+Azure operational security,https://docs.microsoft.com/en-us/azure/security/abstract-azure-operational-security,Azure Whitepapers
+Azure security technical capabilities,https://docs.microsoft.com/en-us/azure/security/azure-security-technical-capabilities,Azure Whitepapers
+Azure Storage security guide,https://docs.microsoft.com/azure/storage/common/storage-security-guide?toc=%2fazure%2fsecurity%2ftoc.json,Azure Whitepapers
+Data classification for cloud readiness,https://gallery.technet.microsoft.com/Data-Classification-for-51252f03/file/172083/1/Data%20Classification%20for%20Cloud%20Readiness%20(2017-04-11).pdf,Azure Whitepapers
+Governance in Azure,https://docs.microsoft.com/en-us/azure/security/governance-in-azure,Azure Whitepapers
+Isolation in the Azure public cloud,https://docs.microsoft.com/en-us/azure/security/azure-isolation,Azure Whitepapers
+Overview of Azure compliance,https://gallery.technet.microsoft.com/Overview-of-Azure-c1be3942,Azure Whitepapers
+Security management in Azure,https://docs.microsoft.com/en-us/azure/security/azure-security-management,Azure Whitepapers

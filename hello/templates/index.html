@@ -1,0 +1,67 @@
+{% extends "base.html" %}
+{% block title %} Sample App - {% endblock %}
+
+{% block styles %}
+    <style>
+        .login-Bar {
+            float: right;
+        }
+
+        .title-Bar {
+         width:80%;
+         margin: 0 auto;
+         text-align: center;
+        }
+
+        .list-Item {
+            margin: 1em;
+            padding: 1em;
+        }
+
+        a > span {
+            text-decoration: none;
+        }
+
+        body {
+            margin: 0 auto;
+            width: 80%;
+        }
+    </style>
+{% endblock %}
+
+{% block body %}
+<div class="ms-Grid-row login-Bar">
+        <p class="ms-fontSize-18">{{ user.displayName }}
+            <a class="ms-fontSize-16 ms-Button ms-Button--Primary" href="{{ url_for('logout') }}">Logout</a>
+        </p>
+</div>
+
+<div class="ms-Grid-row title-Bar">
+        <p class="ms-fontSize-42">Azure Security Resources</p>
+        <blockquote class="ms-fontSize-20">
+                Microsoft provides a multitude of resources to help you get started with securing your application on Azure.
+                Listed below is a handful of resources developed to help with developing secure applications.
+        </blockquote>
+</div>
+
+
+
+{% if documents %}
+    <div class="ms-Grid-Row">
+        {% for document in documents %}
+            <a class="ms-Grid-col ms-sm6 ms-md5 ms-lg5 ms-depth-8 list-Item" href={{document.url}}>
+                    <p class="ms-fontSize-20">{{document.title}} <i class="ms-Icon ms-Icon--Link" aria-hidden="true"></i></p>
+                    <span>{{document.category}}</span>
+            </a>
+            {% endfor %}
+    </div>
+{% else %}
+    <div>
+        <div>
+            <p>Database Not Yet Seeded :-(</p>
+            <span>Documents will appear when database is seeded</span>
+        </div>
+    </div>
+{% endif %}
+
+{% endblock %}

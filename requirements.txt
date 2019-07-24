@@ -1,0 +1,11 @@
+# Using snyk.io to check if the dependencies have vulnerabilities
+
+applicationinsights==0.11.7
+azure-keyvault==1.1.0
+flask==1.0.2
+flask-sqlalchemy==2.3.2
+flask-migrate==2.4.0
+gunicorn==19.9.0
+maxminddb-geolite2==2018.703
+psycopg2==2.7.7
+sqlalchemy==1.2.18
