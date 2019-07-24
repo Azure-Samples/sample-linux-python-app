@@ -28,7 +28,7 @@ Change directory into the scripts folder `cd scripts`
 ---
 **NOTE**
 
-After deployment this application needs to be configured as outlined in the documentation here [App Documentation](APP_DOCS_LINK),
+After deployment this application needs to be configured as outlined in the documentation here [App Documentation](https://docs.microsoft.com/azure/security/develop/secure-web-app),
 otherwise the components will not work correctly without specifying the necessary steps
 
 ---
